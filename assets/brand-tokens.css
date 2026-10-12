@@ -1,0 +1,13 @@
+/* Bold Sites brand tokens */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..900&family=JetBrains+Mono:wght@500;600;700&family=Alexandria:wght@400;700;900&display=swap');
+:root{
+  --bs-ink:#0C0C10; --bs-paper:#F5F2EC; --bs-cobalt:#2E3BFF; --bs-lime:#D8FF3C; --bs-smoke:#8B8A93; --bs-line:#DAD6CD;
+  --bs-font-display:'Archivo',system-ui,sans-serif; --bs-font-body:'Archivo',system-ui,sans-serif;
+  --bs-font-mono:'JetBrains Mono',ui-monospace,monospace; --bs-font-arabic:'Alexandria','Archivo',sans-serif;
+  --bs-display-weight:900; --bs-display-stretch:125%; --bs-display-tracking:-0.02em; --bs-display-leading:.88;
+  --bs-mono-tracking:.08em; --bs-radius-sm:10px; --bs-radius-md:20px; --bs-radius-lg:36px; --bs-radius-pill:999px;
+}
+.bs-display{font-family:var(--bs-font-display);font-weight:900;font-stretch:125%;text-transform:uppercase;letter-spacing:var(--bs-display-tracking);line-height:var(--bs-display-leading)}
+.bs-mono{font-family:var(--bs-font-mono);font-weight:500;text-transform:uppercase;letter-spacing:var(--bs-mono-tracking)}
+[lang="ar"],.bs-ar{font-family:var(--bs-font-arabic);letter-spacing:0;direction:rtl}
+.bs-select{outline:4px solid var(--bs-cobalt);outline-offset:10px} /* selection-frame device */
